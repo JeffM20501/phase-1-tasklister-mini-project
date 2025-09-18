@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // your code here
   //elements
   let form=document.getElementById('create-task-form')
-  let formInput = document.querySelector('#new-task-description')
+  let formInput = form.querySelector('#new-task-description')
   formInput.value='Wash the dishes'
   //function
   const handleDelete=(e)=>{
